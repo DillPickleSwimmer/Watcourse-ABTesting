@@ -1,0 +1,179 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: navy;
+  color: white;
+}
+
+.hamburger {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  display: inline-block;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+.searchbar {
+  width: 200px;
+  display: inline-block;
+  font-size: 30px;
+}
+
+.searchbar:hover {
+  cursor: pointer;
+}
+
+.searchbar>div:hover {
+  cursor: pointer;
+}
+
+.modal-background {
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.modal {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 10%;
+  bottom: 10%;
+  background-color: white;
+  padding: 20px;
+}
+
+.modal-courses {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: auto;
+  max-height: 600px;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.footer {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  background-color: white;
+  min-width: 350px;
+  width: 350px;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-header {
+  width: 100%;
+}
+
+.sidebar-close {
+  width: 15px;
+  padding: 5px;
+  background-color: lightgrey;
+  float: right;
+}
+
+.sidebar-close:hover {
+  cursor: pointer;
+}
+
+.sidebar-option {
+  background-color: cornsilk;
+  margin: 20px;
+  min-height: 100px;
+  box-sizing: border-box;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.terms {
+  background-color: lightblue;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.terms-horizontal {
+  display: flex;
+  flex-direction: row; 
+}
+
+.terms-vertical {
+  display: flex;
+  flex-direction: column; 
+}
+
+.term {
+  background-color: white;
+  margin: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+  overflow: auto;
+}
+
+.term-courses {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.terms-horizontal .term {
+  min-width: 350px;
+  width: 350px;
+  min-height: 100px;  
+}
+
+.terms-vertical .term {
+  width: auto; 
+  min-height: 200px; 
+}
+
+.course {
+  background-color: lightgrey;
+  padding: 10px;
+  margin: 10px;
+  max-width: 280px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.course:hover {
+  cursor: pointer;
+}
+
+.shortlist-bottom {
+  padding: 10px;
+  overflow: auto;
+  max-height: 300px;
+}
+
+.shortlist-bottom>div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
